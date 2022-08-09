@@ -1,4 +1,15 @@
 html {
-    font-size: 15px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+p {
+  font-size: 16px;
+  line-height: 2;
+}
+li {
+  font-size: 16px;
+  letter-spacing: 1px;
 }
