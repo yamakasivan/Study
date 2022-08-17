@@ -2,10 +2,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/XQpCmHwjl0o.png') {
-      myImage.setAttribute ('src','images/firefox2.png');
+    if(mySrc === 'images/1-20220208_123941.png') {
+      myImage.setAttribute ('src','images/ezhik2.png');
     } else {
-      myImage.setAttribute ('src','images/XQpCmHwjl0o.png');
+      myImage.setAttribute ('src','images/1-20220208_123941.png');
     }
 }
 
