@@ -1,10 +1,11 @@
 html {
-    background-color: green;
+    background-color: rgb(59, 139, 59);
     font-size: 20px;
+    color: rgb(235, 224, 224);
   }
   
   ul {
-    background: red;
+    background: rgb(206, 53, 53);
     padding: 10px;
     border: 1px solid black;
   }
