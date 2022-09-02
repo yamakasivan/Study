@@ -1,0 +1,97 @@
+    /* Внутренняя таблица стилей */
+ 
+    .caption_h_1{                         
+    margin-top: 1.5em;
+    margin-bottom: 1.1em;
+    font-family: Arial;
+    text-align: center;
+    font-size: 14px !important;
+    color: #173147;
+    }
+ 
+    .caption_h_2{                       
+    margin-top: 1.5em;
+    margin-bottom: 1.1em;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    color: #173147;
+    }
+ 
+    .paragraph{                         
+    margin-top: 7px;
+    margin-bottom: 5px;
+    line-height: 1.5; 
+    text-indent: 5px; 
+    }
+ 
+    .definition_paragraph{                    
+    margin-top: 15px;
+    margin-bottom:15px;
+    padding-left: 5px;
+    border: 0px;
+    border-left: 5px;
+    border-color: #CCCCFF;
+    border-style: solid;
+    line-height: 1.5; 
+    text-indent: 5px; 
+    }
+ 
+    .note_paragraph{                      
+    margin-top: 15px;
+    margin-bottom:15px;
+    padding-left: 5px;
+    border: 0px;
+    border-left: 5px;
+    border-style: solid;
+    border-color: #FFAAAA;
+    line-height: 1.5; 
+    text-indent: 5px; 
+    }
+         
+    .definition_word{                     
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.95em;
+    color: #008800;
+    }
+ 
+    .list_1{                      
+    margin-top: 0px;
+    padding-left: 20px;
+    list-style-image: url(circle_green.png);
+    list-style-position: inside;
+    line-height: 1.8;
+    }
+ 
+    .list_1 a{                
+    text-decoration: none;
+    border-bottom: 0px;
+    color: #1611A3;
+    }
+ 
+    .content_div{                 
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+    box-shadow: 4px 3px 8px 3px #cccccc;
+    }
+ 
+    .green_letter{
+    color: #008800;
+    }
+ 
+    .light_blue_letter{                     
+    color: #5555CC;
+    }
+ 
+    .orange_letter{
+    color: #FE8C00;
+    }
