@@ -1,5 +1,7 @@
 /* General setup */
-@font-face {
+
+
+/* @font-face {
     font-family: "myFont";
     src: url("BungeeSpice-Regular.ttf");
   }
@@ -7,8 +9,7 @@
     font-family: "myFont2";
     src: url("AbyssinicaSIL-Regular.ttf");
     font-weight: normal;
-
-  }
+  } */
 
 html {
     font-size: 10px;
@@ -27,17 +28,18 @@ html {
   h1 {
     font-size: 3rem;
     font-family: myFont;
+    font-family: 'Bungee Spice', cursive;
   }
   
   h2 {
     font-size: 2.4rem;
-    font-family: myFont;
+    font-family: 'Bungee Spice', cursive;
+}
 
-  }
-  
-  p {
+p {
     font-size: 1.4rem;
     line-height: 1.6;
     word-spacing: 0.6rem;
-    font-family: myFont2;
+    font-family: 'Abyssinica SIL', serif;
   }
+
