@@ -83,30 +83,23 @@ p, li {
     letter-spacing: 1px;
     text-align: justify;
 }
-li {
-    list-style-type: ;
-}
 a:link {
     color: #a66666;
 }
 a:visited {
     color: rgb(0, 107, 0);
 }
-a:focus {
+a:focus, a:hover {
     color: white;
     background: #a66666;
     outline:none;
-    text-decoration: none;
-}
-a:hover {
-    color: white;
-    background: #a66666;
     text-decoration: none;
 }
 a:active {
     color:rgb(255, 255, 255);
     background: rgb(0, 99, 129);
 }
+
 a[href*="https"]::after {
     content: '';
     width: 1.5rem;
@@ -147,7 +140,4 @@ nav a {
     border: 1px solid #a66666;
     margin-bottom: 20px;
     text-decoration: none;
-}
-footer {
-    padding: 15px 0 15px 0;
 }
