@@ -1,0 +1,143 @@
+/* General setup */
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(RobotoCondensed-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+html {
+    font-family: Roboto;
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-family: RobotoCondensed;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+h2 {
+    font-family: RobotoCondensed;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding: 15px 0 15px 0;
+}
+
+h2+p {
+    text-indent: 3rem;
+}
+
+p, li {
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+a:link {
+    color: #a66666;
+}
+a:visited {
+    color: rgb(0, 107, 0);
+}
+a:focus, a:hover {
+    color: white;
+    background: #a66666;
+    outline:none;
+    text-decoration: none;
+}
+a:active {
+    color:rgb(255, 255, 255);
+    background: rgb(0, 99, 129);
+}
+
+a[href*="https"]::after {
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    background: url("external-link-52.png") no-repeat bottom right;
+    background-size: cover;
+  }
+
+section ol li, aside li, nav li {
+    list-style-type: none;
+  }
+
+section ol {
+    padding-left: 20px;
+}
+section ol li {
+    background: url(icon-text.png) no-repeat left;
+    background-size: 1.5rem;
+    padding-left: 18px;
+}
+aside ul {
+    padding-left: 0px;
+
+}
+aside li {
+    background: url(cdr-service.png) no-repeat left;
+    background-size: 1.5rem;
+    padding-left: 18px;
+}
+nav {
+    margin-top: 75px;
+}
+nav a {
+    display: block;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border: 1px solid #a66666;
+    margin-bottom: 20px;
+    text-decoration: none;
+}

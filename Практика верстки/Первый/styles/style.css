@@ -1,0 +1,169 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body,
+p {
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER */
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.namesites {
+    text-transform: uppercase;
+    color: #69B9FF;
+    font-size: 25px;
+}
+
+.navheader {
+    display: flex;
+}
+
+.navheader a {
+    margin: 0 20px 0 20px;
+    color: #676770;
+    font-size: 15px;
+    transition: color .3s;
+
+}
+
+.navheader a:hover {
+    color: #0082F3;
+
+}
+
+
+/* oneblock */
+.oneblock {
+    background: url(../images/oneblock.png) no-repeat;
+    background-size: cover;
+    min-height: 594px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.oneblock>p {
+    text-transform: uppercase;
+    color: white;
+    font-size: 59px;
+    margin-bottom: 107px;
+}
+
+.navoneblock {
+    display: flex;
+}
+
+.navoneblock p {
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 11px 30px 11px 30px;
+    margin-left: 20px;
+    transition: background-color .3s;
+
+}
+
+.navoneblock p:hover {
+    background-color: #69B9FF;
+}
+
+
+/* secondblock */
+.secondblock {
+    min-height: 583px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+/* secondblock1 */
+.secondblock1 {
+    display: flex;
+    flex-flow: column;
+}
+
+.secondblock1_one {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #676770;
+    margin-bottom: 17px;
+    letter-spacing: 3px;
+
+}
+
+.secondblock1_two {
+    font-size: 17px;
+    color: #8E8E9C;
+    margin-bottom: 62px;
+    letter-spacing: 3px;
+}
+
+/* secondblock2 */
+.secondblock2 {
+    display: flex;
+    justify-content: center;
+}
+
+.secondblock2 div {
+    height: 300px;
+    width: 291px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    border: 1px solid #DCEBF7;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.secondblock2_one::before {
+    content: url(../images/icons/IMAGE.png);
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.secondblock2_two::before {
+    content: url(../images/icons/IMAGE\ \(1\).png);
+    text-align: center;
+    margin-bottom: 19px;
+
+}
+
+.secondblock2_three::before {
+    content: url(../images/icons/IMAGE\ \(2\).png);
+    text-align: center;
+    margin-bottom: 19px;
+
+}
+
+.secondblock2_h2 {
+    font-size: 20px;
+    color: #676770;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.secondblock2_p {
+    color: #6A859C;
+    text-align: center;
+    line-height: 25px;
+}

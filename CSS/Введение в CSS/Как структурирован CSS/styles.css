@@ -1,0 +1,21 @@
+p {
+  font-size: 30px;
+  width: 400px;
+  background-color: green;
+  color: black;
+  border: solid 2px;
+  transform: rotate(0.02turn);
+  background-image: none;
+  color: rgb(200, 200, 200);
+  padding: 15px 0 15px 15px;
+}
+
+body {
+  background-color: pink;
+}
+
+/* @media (min-width: 30em) {
+    body {
+      background-color: blue;
+    }
+  } */
